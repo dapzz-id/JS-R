@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded", () => {const loaderContainer = document.createElement("div"); loaderContainer.id = "LoadLazyContent"; loaderContainer.className = "fixed w-dvw h-dvh inset-0 bg-black bg-opacity-30 flex items-center justify-center overflow-auto z-[999999999999999999] p-4"; loaderContainer.innerHTML = '<div class="loader"></div>'; document.body.appendChild(loaderContainer); window.addEventListener("load", () => {setTimeout(() => {loaderContainer.remove(); }, 650); }); });
+//Animation and Code by Kadavi Raditya Alvino | Instagram (@x.dapzz)
